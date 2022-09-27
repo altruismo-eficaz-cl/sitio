@@ -116,10 +116,10 @@
   "resolved" "https://registry.npmjs.org/@matejmazur/react-katex/-/react-katex-3.1.3.tgz"
   "version" "3.1.3"
 
-"@next/bundle-analyzer@^12.1.0":
-  "integrity" "sha512-Xw3gxBTOAS5bcayUl2hDYeCbAFIR+7poiGW4Wi/KGcsjgVRetKBS6akZ1AZsz36CUOdCxajKO45B6CeAaKtcqA=="
-  "resolved" "https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-12.1.4.tgz"
-  "version" "12.1.4"
+"@next/bundle-analyzer@^12.3.1":
+  "integrity" "sha512-2f/eei0YqZZBMTs4g1+HbgHyAFH5MbI/w9wLXmE8ly9SFze2D40sRH46JcC//EFVM/TIynVBh5sxn9CVO/vtxg=="
+  "resolved" "https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-12.3.1.tgz"
+  "version" "12.3.1"
   dependencies:
     "webpack-bundle-analyzer" "4.3.0"
 
