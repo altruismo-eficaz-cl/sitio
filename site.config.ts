@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: "da57b624-e9dd-4239-8c27-3bbc520efe4c",
+  // rootNotionSpaceId: "da57b624-e9dd-4239-8c27-3bbc520efe4c",
 
   // basic site info (required)
   name: 'Altruismo Eficaz Chile',
@@ -45,8 +45,8 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/uc': 'f026b19400474d46b18888465754f3cf',
-    '/uc/links': 'de811774ffb74a1ea013716754b1cb98',
-    '/uc/digest': '971194ed8e254c4dbf8bf9f35b7f8eab'
+    '/links': 'de811774ffb74a1ea013716754b1cb98',
+    '/digest': '971194ed8e254c4dbf8bf9f35b7f8eab'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
