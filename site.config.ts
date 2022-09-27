@@ -2,30 +2,32 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: 'c954c28ed7ca41619a52996a19b3a5b3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: "da57b624-e9dd-4239-8c27-3bbc520efe4c",
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Altruismo Eficaz Chile',
+  domain: 'altruismoeficaz.cl',
+  author: 'Altruismo Eficaz Chile',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'El altruismo eficaz es un campo de investigación y una comunidad práctica enfocada en maximizar el bien que puedes hacer a través de tu carrera, projectos y donaciones.',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  // twitter: 'transitive_bs',
+  // github: 'transitive-bullshit',
+  // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX
+
+  instagram: 'altruismoeficazuc',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: "💡",
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -41,11 +43,11 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/uc': 'f026b19400474d46b18888465754f3cf',
+    '/uc/links': 'de811774ffb74a1ea013716754b1cb98',
+    '/uc/digest': '971194ed8e254c4dbf8bf9f35b7f8eab'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages

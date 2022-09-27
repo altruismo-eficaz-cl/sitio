@@ -5,7 +5,7 @@ import { PageHead } from './PageHead'
 import styles from './styles.module.css'
 
 export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
-  const title = site?.name || 'Notion Page Not Found'
+  const title = site?.name || 'Página de Notion no encontrada'
 
   return (
     <>
@@ -13,15 +13,14 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
 
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Notion Page Not Found</h1>
+          <h1>Página de Notion no encontrada</h1>
 
           {error ? (
             <p>{error.message}</p>
           ) : (
             pageId && (
               <p>
-                Make sure that Notion page &quot;{pageId}&quot; is publicly
-                accessible.
+                Asegúrate que la página &quot;{pageId}&quot; sea públicamente accesible.
               </p>
             )
           )}
