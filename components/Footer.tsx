@@ -75,18 +75,6 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
-        {config.github && (
-          <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaGithub />
-          </a>
-        )}
-
         {config.instagram && (
           <a
             className={styles.instagram}
@@ -99,6 +87,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
+
         {config.linkedin && (
           <a
             className={styles.linkedin}
@@ -110,6 +99,19 @@ export const FooterImpl: React.FC = () => {
             <FaLinkedin />
           </a>
         )}
+
+        {config.github && (
+          <a
+            className={styles.github}
+            href={`https://github.com/${config.github}`}
+            title={`GitHub @${config.github}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaGithub />
+          </a>
+        )}
+
 
         {config.newsletter && (
           <a

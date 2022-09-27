@@ -18,8 +18,8 @@ export default siteConfig({
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  // github: 'transitive-bullshit',
-  // linkedin: 'fisch2',
+  github: 'altruismo-eficaz-cl',
+  linkedin: 'altruismoeficazuc',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX
 
