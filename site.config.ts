@@ -44,9 +44,9 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/uc': 'f026b19400474d46b18888465754f3cf',
-    '/links': 'de811774ffb74a1ea013716754b1cb98',
-    '/digest': '971194ed8e254c4dbf8bf9f35b7f8eab'
+    '/uc': '539ea9da108d488ca6af155f172143af',
+    '/links': 'e20f0b37f9b941c7a91d848ac491d0c2',
+    '/digest': 'aca14f4bad8b4398b33df160ca74f494'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
