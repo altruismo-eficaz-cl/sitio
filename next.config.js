@@ -18,5 +18,21 @@ module.exports = withBundleAnalyzer({
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
+  },
+  redirects: async () => {
+    return [
+      {
+        source: '/qr-pendon',
+        destination: 'https://forms.gle/Hm1d4S6NqcLGwpsK6',
+        permanent: false,
+        basePath: false
+      },
+      {
+        source: '/t-ais',
+        destination: 'https://itch.io/jam/thinkathon-ia/results',
+        permanent: false,
+        basePath: false
+      }
+    ]
   }
 })
