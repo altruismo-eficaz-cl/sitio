@@ -10,15 +10,16 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Altruismo Eficaz Chile',
-  domain: 'altruismoeficaz.cl',
   author: 'Altruismo Eficaz Chile',
+  domain: 'altruismoeficaz.cl',
+  language: "es",
 
   // open graph metadata (optional)
   description: 'El altruismo eficaz es un campo de investigación y una comunidad práctica enfocada en maximizar el bien que puedes hacer a través de tu carrera, projectos y donaciones.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'altruismo-eficaz-cl',
+  // github: 'altruismo-eficaz-cl',
   linkedin: 'altruismoeficazuc',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX
@@ -38,6 +39,7 @@ export default siteConfig({
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
   isRedisEnabled: false,
+  isSearchEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -46,21 +48,23 @@ export default siteConfig({
   pageUrlOverrides: {
     '/uc': '539ea9da108d488ca6af155f172143af',
     '/links': 'e20f0b37f9b941c7a91d848ac491d0c2',
-    '/digest': 'aca14f4bad8b4398b33df160ca74f494'
+    '/digest': 'aca14f4bad8b4398b33df160ca74f494',
+    '/thinkathon': '3b7c4b1d55bd44d384b1a1d5dce54b74',e3r
   },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  navigationStyle: 'custom',
+
   // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationLinks: [
+    {
+      title: 'Inicio',
+      pageId: '7ba9bc5217d846a7b61416ac1ed43ad9'
+    },
+    {
+      title: 'UC',
+      pageId: '539ea9da108d488ca6af155f172143af'
+    }
+  ]
 })

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { NextRequest } from 'next/server'
+import Image from 'next/image'
 
 import { ImageResponse } from '@vercel/og'
 
@@ -60,7 +61,7 @@ export default async function OGImage(req: NextRequest) {
         }}
       >
         {pageInfo.image && (
-          <img
+          <Image
             src={pageInfo.image}
             style={{
               position: 'absolute',
@@ -145,7 +146,7 @@ export default async function OGImage(req: NextRequest) {
               zIndex: '5'
             }}
           >
-            <img
+            <Image
               src={pageInfo.authorImage}
               style={{
                 width: '100%',

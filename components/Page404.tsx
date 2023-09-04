@@ -14,10 +14,10 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
 
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Página de Notion no encontrada</h1>
+          <h1 className={styles.centerText}>Página no encontrada</h1>
 
           {error ? (
-            <p>{error.message}</p>
+            <p>No se puedo encontrar esta página.</p>
           ) : (
             pageId && (
               <p>
@@ -26,6 +26,7 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
             )
           )}
 
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src='/404.png'
             alt='404 Not Found'
